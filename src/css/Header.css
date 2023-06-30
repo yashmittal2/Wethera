@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&family=Roboto+Condensed:wght@700&family=Roboto+Slab:wght@300;900&family=Rowdies:wght@700&display=swap");
+
+.head {
+  color: rgba(202, 168, 15, 0.49);
+  font-size: 10ch;
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 40px 10px;
+}
