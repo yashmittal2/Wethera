@@ -2,15 +2,15 @@
 
 .ui.card {
   display: inline-block;
-  padding: 1rem;
+  padding: 0.7rem;
   background-color: rgba(216, 243, 13, 0.6);
   box-shadow: 2px 6px 10px 2px rgba(12, 12, 12, 0.3);
   border-radius: 15px;
 }
 
 .inline {
-  margin: 1rem;
-  padding: 2rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
   text-align: center;
   display: flex;
   justify-content: center;
