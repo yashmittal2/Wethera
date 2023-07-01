@@ -5,6 +5,7 @@ import "semantic-ui-css/semantic.min.css";
 
 import "./App.css";
 import Input from "./Input";
+import Footer from "./Footer";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
    
       <Input />
       
+      <Footer/>
     </div>
   );
 }
