@@ -79,3 +79,10 @@
 .ui.card>.content>.header:not(.ui){
   line-height: 5rem;
 }
+@media (max-width: 768px) {
+  .ui.card {
+    width: 100%;
+    margin: 1rem 0;
+    padding: 0.5rem;
+  }
+}
