@@ -7,6 +7,7 @@ import GetWeather from "./Getweather";
 function Input() {
   const [city, setCity] = useState("");
   const [weatherData, setWeatherData] = useState(null);
+  const [error, setError] = useState("");
 
   const handleCityChange = (e) => {
     setCity(e.target.value);
@@ -14,22 +15,24 @@ function Input() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setError("");
     try {
       const response = await axios.get(
         `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=1591a363f6c1d64d6737802713095e63`
       );
 
       setWeatherData(response.data.coord);
+      setError("");
     } catch (error) {
       console.log("Error:", error);
+      setError("City not found");
+      setWeatherData(null);
     }
-    setCity(""); 
+    setCity("");
   };
- 
 
   return (
     <>
-      
       <Form onSubmit={handleSubmit}>
         <Form.Field>
           <input
@@ -42,6 +45,12 @@ function Input() {
         <Button type="submit">Search</Button>
       </Form>
       {weatherData && <GetWeather weatherData={weatherData} />}
+      {error && (
+        <p className="err">
+          <i class="frown outline icon"></i> <br></br>
+          {error}
+        </p>
+      )}
     </>
   );
 }

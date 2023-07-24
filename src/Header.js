@@ -6,10 +6,11 @@ function Header() {
       <h1
         style={{
           color: "#0564A4",
-          fontFamily: "sans-serif",
+          fontFamily: "cursive",
           fontWeight: "bolder",
-          fontSize: "65px",
+          fontSize: "70px",
           margin: "0",
+         
         }}
       >
         Wethera
@@ -18,9 +19,9 @@ function Header() {
         style={{
           color: "#0E97F3",
           fontSize: "18px",
-          fontFamily: "sans-serif",
+          fontFamily: "cursive",
           fontWeight: "bolder",
-          margin: "0",
+          margin: "40px 0px 0px 450px",
           paddingTop: "-2px",
         }}
       >
