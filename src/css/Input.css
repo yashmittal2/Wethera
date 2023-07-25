@@ -45,6 +45,21 @@
    box-shadow: 3px 2px 10px 1px rgba(0, 0, 0, 0.2);
          
 }
+.err {
+  color: #000000;
+  background-color: rgba(216, 243, 13, 0.6);
+
+  padding: 40px 10px 50px;
+  font-weight: bold;
+  text-align: center;
+  margin: 80px 0px 0px 0px;
+
+ 
+  font-size: 40px;
+ 
+  
+}
+
 @media (max-width: 728px) {
   .ui.form {
     width: 100%;
@@ -77,17 +92,41 @@
   }
 
 }
-.err {
-  color: #000000;
-  background-color: rgba(216, 243, 13, 0.6);
 
-  padding: 40px 10px 50px;
-  font-weight: bold;
-  text-align: center;
-  margin: 80px 0px 0px 0px;
 
- 
-  font-size: 40px;
- 
-  
+@media (max-width: 480px) {
+  .ui.form {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .field {
+    width: 90%;
+  }
+
+  .ui.form input:not([type]),
+  .ui.form input[type="date"],
+  .ui.form input[type="datetime-local"],
+  .ui.form input[type="email"],
+  .ui.form input[type="file"],
+  .ui.form input[type="number"],
+  .ui.form input[type="password"],
+  .ui.form input[type="search"],
+  .ui.form input[type="tel"],
+  .ui.form input[type="text"],
+  .ui.form input[type="time"],
+  .ui.form input[type="url"] {
+    width: 100%;
+  }
+
+  .ui.button {
+    margin: 10px 0;
+    padding: 10px 25px;
+    font-size: 14px;
+  }
+
+  .err {
+    padding: 10px;
+    font-size: 20px;
+  }
 }
