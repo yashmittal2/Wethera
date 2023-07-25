@@ -5,6 +5,9 @@ background-size: cover;
 }
 @media (max-width: 480px) {
   body{
-    background-repeat: repeat-y;
+   background-size: cover; 
+  }
+  .main{
+    margin-bottom: 50px;
   }
 }

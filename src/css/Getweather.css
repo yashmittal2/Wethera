@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&family=Roboto+Condensed:wght@700&family=Roboto+Slab:wght@300;900&family=Rowdies:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&family=Roboto+Condensed:wght@700&family=Roboto+Slab:wght@300;900&family=Rowdies:wght@700&display=swap");
 
 .ui.card {
   display: inline-block;
@@ -24,7 +24,7 @@
 .ui.card .header {
   font-size: 46px;
   text-align: left;
-  font-family: 'Agdasima', sans-serif;
+  font-family: "Agdasima", sans-serif;
 }
 
 .ui.card .date {
@@ -36,7 +36,7 @@
 .temp {
   font-size: 80px;
   font-weight: 900;
-  font-family: 'Agdasima', sans-serif;
+  font-family: "Agdasima", sans-serif;
   text-align: center;
   color: rgb(10, 14, 241);
 }
@@ -61,28 +61,56 @@
   margin-top: -30px !important;
 }
 
-.hum{
+.hum {
   text-align: left;
-  font-family: 'Agdasima', sans-serif;
+  font-family: "Agdasima", sans-serif;
   font-size: 20px;
   font-weight: 500;
- 
-  
 }
-.feel{
+.feel {
   font-weight: 900;
   color: rgb(10, 14, 241);
   font-size: 30px;
   padding-bottom: 15px;
-  
 }
-.ui.card>.content>.header:not(.ui){
+.ui.card > .content > .header:not(.ui) {
   line-height: 5rem;
 }
 @media (max-width: 768px) {
   .ui.card {
-    width: 100%;
+    width: 90%;
     margin: 1rem 0;
     padding: 0.5rem;
+  }
+}
+@media (max-width: 480px) {
+  .inline .ui.card {
+    width: 100%;
+    display: inline-block;
+ 
+     
+  }
+
+  .inline {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+ 
+  
+  }
+
+  .temp {
+    font-size: 60px;
+  }
+
+  .desc {
+    font-size: 16px;
+  }
+
+  .ui.card img {
+    width: 70px;
+    height: 75px;
+    margin-top: -25px;
   }
 }

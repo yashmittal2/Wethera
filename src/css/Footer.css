@@ -1,0 +1,20 @@
+.foo {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 0;
+}
+
+@media (max-width: 480px) {
+ .foo {
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 60px; 
+}
+}

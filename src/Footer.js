@@ -1,17 +1,9 @@
 import React from "react";
+import "./css/Footer.css";
 
-const Footer = () => {
+function Footer() {
   return (
-    <footer
-      style={{
-        textAlign: "center",
-        position: "fixed",
-        bottom: 0,
-        width: "100%",
-        
-        padding: "20px 0",
-      }}
-    >
+    <footer className="foo">
       <span style={{ color: "black", fontWeight: "bold" }}> Made by</span> {""}{" "}
       <a
         href="https://www.linkedin.com/in/yashmittalhere/"
@@ -22,6 +14,6 @@ const Footer = () => {
       </a>
     </footer>
   );
-};
+}
 
 export default Footer;
