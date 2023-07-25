@@ -63,9 +63,9 @@
 @media (max-width: 728px) {
   .ui.form {
     width: 100%;
-    margin: 50px auto;
-    justify-content: center;
-    display: flex;
+  margin: 0px auto;
+  display: inline-flex;
+  justify-content: center;
   }
   
   .field {
