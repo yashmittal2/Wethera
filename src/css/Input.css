@@ -102,6 +102,7 @@
 
   .field {
     width: 100%;
+    align-self: center;
   }
 
   .ui.form input:not([type]),
