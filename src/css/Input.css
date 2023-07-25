@@ -101,7 +101,7 @@
   }
 
   .field {
-    width: 90%;
+    width: 100%;
   }
 
   .ui.form input:not([type]),
@@ -128,5 +128,6 @@
   .err {
     padding: 10px;
     font-size: 20px;
+    width: 100%;
   }
 }

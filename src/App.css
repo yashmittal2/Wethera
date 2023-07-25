@@ -3,3 +3,8 @@ body {
 
 background-size: cover; 
 }
+@media (max-width: 480px) {
+  body{
+    background-repeat: repeat-y;
+  }
+}
