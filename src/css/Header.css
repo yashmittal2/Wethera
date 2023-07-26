@@ -17,13 +17,12 @@
 
 @media (max-width: 480px) {
   .par {
-    display: flex;
-    align-items: center;
+  text-align: center;
     color: #0e97f3;
     font-size: 18px;
     font-family: cursive;
     font-weight: bolder;
-    margin: 25px 0 0 30px; 
+    margin: 25px 0 0 0px; 
   }
 
   .hed {
@@ -31,6 +30,6 @@
     font-family: cursive;
     font-weight: bolder;
     font-size: 60px;
-    margin: 0;
+    text-align: center;
   }
 }

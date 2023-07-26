@@ -4,16 +4,15 @@
   bottom: 0;
   width: 100%;
   padding: 20px 0;
+ 
 }
 
 @media (max-width: 480px) {
  .foo {
   
   justify-content: center;
- 
- position: fixed;
-  
- 
+ align-items: center;
   width: 100%;
+  background-color:  rgb(15, 231, 227);;
  }
 }
